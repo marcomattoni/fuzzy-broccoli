@@ -1,8 +1,8 @@
 import os
 from openai import AzureOpenAI
 
-api_key = os.environ["AZURE_OPENAI_API_KEY"]
-azure_endpoint = os.environ["AZURE_OPENAI_ENDPOINT"]
+api_key = os.environ("AZURE_OPENAI_API_KEY")
+azure_endpoint = os.environ("AZURE_OPENAI_ENDPOINT")
 deployment_name = "gpt-4o-mini"
 
 
